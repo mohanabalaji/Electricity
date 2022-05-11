@@ -27,7 +27,7 @@ public class DBSample
 			
 			int i = pd.executeUpdate();
 			if(i>0) {
-				System.out.println("successfully instered");
+				System.out.println("successfully instered!");
 			}
 		}catch(Exception e) {
 			System.out.println(e);
